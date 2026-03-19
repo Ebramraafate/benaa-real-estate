@@ -1,0 +1,14 @@
+{
+  "name": "benaa-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "بناء للمقاولات والديكور - الموقع الإلكتروني",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

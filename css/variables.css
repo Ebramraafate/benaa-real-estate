@@ -1,0 +1,76 @@
+/* ========================================
+   نظام التصميم - بناء للمقاولات والديكور
+   ======================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  /* الألوان الأساسية */
+  --color-primary: #0a1628;
+  --color-primary-light: #142140;
+  --color-primary-dark: #060e1a;
+  --color-accent: #d4912a;
+  --color-accent-light: #e8a840;
+  --color-accent-dark: #b67a1f;
+  --color-white: #ffffff;
+  --color-off-white: #f8f9fa;
+  --color-light-gray: #e9ecef;
+  --color-gray: #6c757d;
+  --color-dark-gray: #343a40;
+  --color-text: #2d3436;
+  --color-text-light: #636e72;
+  --color-text-on-dark: #dfe6e9;
+  --color-success: #27ae60;
+  --color-overlay: rgba(10, 22, 40, 0.7);
+  --color-glass: rgba(255, 255, 255, 0.08);
+  --color-glass-border: rgba(255, 255, 255, 0.15);
+  
+  /* الظلال */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.2);
+  --shadow-accent: 0 4px 20px rgba(212, 145, 42, 0.3);
+  
+  /* التباعد */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+  
+  /* أحجام الخطوط */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-hero: clamp(2.5rem, 5vw, 4.5rem);
+  
+  /* الحدود */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 50%;
+  
+  /* الانتقالات */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* القياسات */
+  --navbar-height: 80px;
+  --container-max: 1280px;
+  --container-narrow: 960px;
+}

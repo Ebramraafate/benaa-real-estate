@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="مشاريع بناء للمقاولات والديكور - معرض أعمالنا من الفلل والمباني والتصاميم الداخلية وعقارات للبيع.">
+  <title>مشاريعنا | بناء للمقاولات والديكور</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="loading-screen"><div class="loading-screen__logo">بناء<span>.</span></div><div class="loading-spinner"></div></div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__logo"><img src="assets/images/logo.jpg" alt="بناء" width="50" height="50"><span class="navbar__logo-text">بن<span>اء</span></span></a>
+      <div class="navbar__links">
+        <a href="index.html" class="navbar__link">الرئيسية</a>
+        <a href="services.html" class="navbar__link">الخدمات</a>
+        <a href="projects.html" class="navbar__link active">مشاريعنا</a>
+        <a href="about.html" class="navbar__link">من نحن</a>
+        <a href="contact.html" class="navbar__link">اتصل بنا</a>
+      </div>
+      <div class="navbar__actions">
+        <a href="contact.html" class="btn btn--primary navbar__cta">ابدأ مشروعك</a>
+        <div class="navbar__toggle" id="navToggle"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">الرئيسية</a><a href="services.html">الخدمات</a><a href="projects.html">مشاريعنا</a><a href="about.html">من نحن</a><a href="contact.html">اتصل بنا</a>
+  </div>
+
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">مشاريعنا</h1>
+      <div class="page-header__breadcrumb"><a href="index.html">الرئيسية</a><span>/</span><span>مشاريعنا</span></div>
+    </div>
+  </header>
+
+  <!-- معرض المشاريع -->
+  <section class="portfolio" style="padding-top: var(--space-3xl);">
+    <div class="container">
+      <div class="portfolio__filters fade-up">
+        <button class="portfolio__filter active" data-filter="all">الكل</button>
+        <button class="portfolio__filter" data-filter="residential">سكني</button>
+        <button class="portfolio__filter" data-filter="commercial">تجاري</button>
+        <button class="portfolio__filter" data-filter="renovation">تجديد</button>
+      </div>
+      
+      <div class="portfolio__grid">
+        <div class="project-card fade-up" data-category="residential">
+          <img class="project-card__image" src="assets/images/project-interior.png" alt="قصر المنيا" loading="lazy">
+          <div class="project-card__overlay">
+            <span class="project-card__category">سكني</span>
+            <h3 class="project-card__title">قصر المنيا</h3>
+            <div class="project-card__info"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> المنيا</span><span>450 م²</span></div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-1" data-category="commercial">
+          <img class="project-card__image" src="assets/images/project-building.png" alt="أبراج المنطقة الشمالية" loading="lazy">
+          <div class="project-card__overlay">
+            <span class="project-card__category">تجاري</span>
+            <h3 class="project-card__title">أبراج المنطقة الشمالية</h3>
+            <div class="project-card__info"><span>المنيا الجديدة</span><span>2000 م²</span></div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-2" data-category="residential">
+          <img class="project-card__image" src="assets/images/hero-bg.png" alt="فيلا العصرية" loading="lazy">
+          <div class="project-card__overlay">
+            <span class="project-card__category">سكني</span>
+            <h3 class="project-card__title">فيلا العصرية</h3>
+            <div class="project-card__info"><span>المنيا</span><span>350 م²</span></div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-3" data-category="renovation">
+          <img class="project-card__image" src="assets/images/project-renovation.png" alt="تجديد منزل العائلة" loading="lazy">
+          <div class="project-card__overlay">
+            <span class="project-card__category">تجديد</span>
+            <h3 class="project-card__title">تجديد منزل العائلة</h3>
+            <div class="project-card__info"><span>المنيا</span><span>200 م²</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- متجر العقارات -->
+  <section class="store" id="store">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">AVAILABLE NOW / متاح الآن</span>
+        <h2 class="section-title">عقارات وأراضي <span>للبيع</span></h2>
+        <p class="section-desc">اكتشف أحدث العروض المتاحة من أراضي وشقق وعقارات في أفضل المواقع</p>
+      </div>
+
+      <div class="store__grid">
+        <div class="store-card fade-up">
+          <img class="store-card__image" src="assets/images/hero-bg.png" alt="أرض للبيع" loading="lazy">
+          <div class="store-card__body">
+            <span class="store-card__badge store-card__badge--available">متاح</span>
+            <h3 class="store-card__title">أرض 500 متر - المنيا الجديدة</h3>
+            <div class="store-card__details">
+              <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> المنيا الجديدة</span>
+              <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 500 م²</span>
+            </div>
+            <div class="store-card__features">
+              <span class="store-card__feature">موقع متميز</span>
+              <span class="store-card__feature">قريبة من الخدمات</span>
+              <span class="store-card__feature">مرخصة</span>
+            </div>
+            <div class="store-card__footer">
+              <span class="store-card__price">اتصل للسعر</span>
+              <a href="https://wa.me/201155855811?text=أريد الاستفسار عن أرض 500 متر - المنيا الجديدة" target="_blank" class="btn btn--primary btn--sm">استفسر الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="store-card fade-up delay-1">
+          <img class="store-card__image" src="assets/images/project-building.png" alt="شقة للبيع" loading="lazy">
+          <div class="store-card__body">
+            <span class="store-card__badge store-card__badge--available">متاح</span>
+            <h3 class="store-card__title">شقة 180 متر - أبراج المنطقة الشمالية</h3>
+            <div class="store-card__details">
+              <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> المنيا الجديدة</span>
+              <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 180 م²</span>
+            </div>
+            <div class="store-card__features">
+              <span class="store-card__feature">تشطيب سوبر لوكس</span>
+              <span class="store-card__feature">3 غرف نوم</span>
+              <span class="store-card__feature">بلكونة واسعة</span>
+            </div>
+            <div class="store-card__footer">
+              <span class="store-card__price">اتصل للسعر</span>
+              <a href="https://wa.me/201155855811?text=أريد الاستفسار عن شقة 180 متر - أبراج المنطقة الشمالية" target="_blank" class="btn btn--primary btn--sm">استفسر الآن</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container"><div class="cta__content fade-up">
+      <h2 class="cta__title">هل تبحث عن عقار مميز؟</h2>
+      <p class="cta__desc">تواصل معنا وسنساعدك في إيجاد العقار المناسب لك.</p>
+      <div class="cta__buttons">
+        <a href="https://wa.me/201155855811" target="_blank" class="btn btn--primary btn--lg"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg> تواصل عبر واتساب</a>
+        <a href="contact.html" class="btn btn--outline btn--lg">أرسل رسالة</a>
+      </div>
+    </div></div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><div class="footer__logo"><img src="assets/images/logo.jpg" alt="بناء" width="45" height="45"><span class="footer__logo-text">بن<span>اء</span></span></div><p class="footer__desc">شركة بناء للمقاولات والديكور - متخصصة في البناء والتشطيب والتصميم الداخلي.</p><div class="footer__social"><a href="https://www.facebook.com/profile.php?id=61581756783537" target="_blank" class="footer__social-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a><a href="https://www.instagram.com/benaa.elminya" target="_blank" class="footer__social-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg></a><a href="https://wa.me/201155855811" target="_blank" class="footer__social-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></a></div></div>
+        <div><h4 class="footer__heading">روابط سريعة</h4><div class="footer__links"><a href="index.html" class="footer__link">الرئيسية</a><a href="about.html" class="footer__link">من نحن</a><a href="services.html" class="footer__link">الخدمات</a><a href="projects.html" class="footer__link">مشاريعنا</a><a href="contact.html" class="footer__link">اتصل بنا</a></div></div>
+        <div><h4 class="footer__heading">خدماتنا</h4><div class="footer__links"><a href="services.html#general-contracting" class="footer__link">المقاولات العامة</a><a href="services.html#finishing" class="footer__link">أعمال التشطيبات</a><a href="services.html#interior-design" class="footer__link">التصميم الداخلي</a><a href="services.html#renovation" class="footer__link">تجديد المنازل</a></div></div>
+        <div><h4 class="footer__heading">تواصل معنا</h4><div class="footer__contact-item"><div class="footer__contact-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.8.3 1.57.56 2.31a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.74.26 1.51.44 2.31.56A2 2 0 0122 16.92z"/></svg></div><a href="tel:+201155855811" style="color:var(--color-accent)">011 55855811</a></div><div class="footer__contact-item"><div class="footer__contact-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></div><a href="mailto:benaa.c.d2025@gmail.com" style="color:var(--color-accent)">benaa.c.d2025@gmail.com</a></div></div>
+      </div>
+      <div class="footer__bottom"><span>© 2025 بناء للمقاولات والديكور. جميع الحقوق محفوظة.</span></div>
+    </div>
+  </footer>
+
+  <div class="floating-contacts">
+    <a href="https://wa.me/201155855811" target="_blank" class="floating-btn floating-btn--whatsapp"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></a>
+    <a href="https://m.me/61581756783537" target="_blank" class="floating-btn floating-btn--facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.2 5.42 3.15 7.18V22l3.04-1.67c.85.24 1.76.37 2.81.37 5.64 0 10-3.93 10-9.3C21 6.13 17.64 2 12 2zm1.05 12.57l-2.55-2.72L5.5 14.6l5.45-5.78 2.61 2.72 4.94-2.72-5.45 5.75z"/></svg></a>
+    <a href="tel:+201155855811" class="floating-btn floating-btn--phone"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.8.3 1.57.56 2.31a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.74.26 1.51.44 2.31.56A2 2 0 0122 16.92z"/></svg></a>
+    <button class="floating-btn floating-btn--top" id="scrollTopBtn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

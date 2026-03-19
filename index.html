@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="بناء للمقاولات والديكور - شركة متخصصة في أعمال البناء والتشطيب والتصميم الداخلي في مصر. نقدم حلول تصميم وبناء متكاملة بأعلى معايير الجودة.">
+  <meta name="keywords" content="بناء, مقاولات, ديكور, تشطيبات, تصميم داخلي, عقارات, المنيا, مصر">
+  <meta name="author" content="Benaa - بناء للمقاولات والديكور">
+  <meta property="og:title" content="بناء للمقاولات والديكور | نبني أرثاً للمستقبل">
+  <meta property="og:description" content="شركة متخصصة في أعمال البناء والتشطيب والتصميم الداخلي في مصر">
+  <meta property="og:type" content="website">
+  <title>بناء للمقاولات والديكور | نبني أرثاً للمستقبل</title>
+  
+  <!-- Preload critical resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- شاشة التحميل -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-screen__logo">بناء<span>.</span></div>
+    <div class="loading-spinner"></div>
+  </div>
+
+  <!-- شريط التنقل -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__logo">
+        <img src="assets/images/logo.jpg" alt="بناء" loading="eager" width="50" height="50">
+        <span class="navbar__logo-text">بن<span>اء</span></span>
+      </a>
+      
+      <div class="navbar__links">
+        <a href="index.html" class="navbar__link active">الرئيسية</a>
+        <a href="services.html" class="navbar__link">الخدمات</a>
+        <a href="projects.html" class="navbar__link">مشاريعنا</a>
+        <a href="about.html" class="navbar__link">من نحن</a>
+        <a href="contact.html" class="navbar__link">اتصل بنا</a>
+      </div>
+
+      <div class="navbar__actions">
+        <a href="contact.html" class="btn btn--primary navbar__cta">ابدأ مشروعك</a>
+        <div class="navbar__toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- قائمة الجوال -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">الرئيسية</a>
+    <a href="services.html">الخدمات</a>
+    <a href="projects.html">مشاريعنا</a>
+    <a href="about.html">من نحن</a>
+    <a href="contact.html">اتصل بنا</a>
+    <a href="contact.html" class="btn btn--primary">ابدأ مشروعك</a>
+  </div>
+
+  <!-- قسم البطل الرئيسي -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="assets/images/hero-bg.png" alt="مشروع بناء فاخر" loading="eager" width="1920" height="1080">
+    </div>
+    <div class="hero__overlay"></div>
+    
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          أفضل شركة مقاولات في صعيد مصر
+        </div>
+        
+        <h1 class="hero__title">
+          نبني أرثاً
+          <span>للمستقبل</span>
+        </h1>
+        
+        <p class="hero__desc">
+          شركة بناء للمقاولات والديكور تقدم لك حلول تصميم وبناء متكاملة بأعلى معايير الجودة والاحترافية، في جميع أنحاء مصر.
+        </p>
+        
+        <div class="hero__buttons">
+          <a href="contact.html" class="btn btn--primary btn--lg">
+            ابدأ مشروعك
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </a>
+          <a href="projects.html" class="btn btn--outline btn--lg">
+            تصفح أعمالنا
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="150">0+</span>
+          <span class="hero__stat-label">مشروع مكتمل</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="10">0+</span>
+          <span class="hero__stat-label">سنوات خبرة</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="200">0+</span>
+          <span class="hero__stat-label">عميل سعيد</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" data-count="50">0+</span>
+          <span class="hero__stat-label">فريق عمل</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الخدمات -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">SOME EXPERTISE / خدماتنا</span>
+        <h2 class="section-title">حلول تصميم وبناء <span>متكاملة</span></h2>
+        <p class="section-desc">نقدم مجموعة شاملة من الخدمات التي تغطي جميع مراحل البناء والتشطيب والتصميم الداخلي</p>
+      </div>
+      
+      <div class="services__grid">
+        <!-- المقاولات العامة -->
+        <div class="service-card fade-up delay-1" id="service-contracting">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 7v1a3 3 0 006 0V7m0 1a3 3 0 006 0V7m0 1a3 3 0 006 0V7M5 21V10.7M19 21V10.7M9 21v-4a2 2 0 012-2h2a2 2 0 012 2v4"/></svg>
+          </div>
+          <h3 class="service-card__title">المقاولات العامة</h3>
+          <p class="service-card__desc">نقدم خدمات المقاولات العامة الشاملة من الأساسات حتى التسليم النهائي بأعلى معايير الجودة.</p>
+          <a href="services.html#general-contracting" class="service-card__link">
+            المزيد
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </a>
+        </div>
+
+        <!-- أعمال التشطيبات -->
+        <div class="service-card fade-up delay-2" id="service-finishing">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="service-card__title">أعمال التشطيبات</h3>
+          <p class="service-card__desc">تشطيبات داخلية وخارجية بأحدث الخامات والتقنيات لتحقيق أعلى مستويات الفخامة.</p>
+          <a href="services.html#finishing" class="service-card__link">
+            المزيد
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </a>
+        </div>
+
+        <!-- التصميم الداخلي -->
+        <div class="service-card fade-up delay-3" id="service-interior">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13.5" cy="6.5" r="2.5"/><path d="M17 2H7a5 5 0 00-5 5v10a5 5 0 005 5h10a5 5 0 005-5V7a5 5 0 00-5-5z"/><path d="M2 15l5-5 4 4 4-4 7 7"/></svg>
+          </div>
+          <h3 class="service-card__title">التصميم الداخلي</h3>
+          <p class="service-card__desc">تصاميم داخلية عصرية تجمع بين الأناقة والراحة مع حلول مبتكرة لكل المساحات.</p>
+          <a href="services.html#interior-design" class="service-card__link">
+            المزيد
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </a>
+        </div>
+
+        <!-- تجديد المنازل -->
+        <div class="service-card fade-up delay-4" id="service-renovation">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
+          </div>
+          <h3 class="service-card__title">تجديد المنازل</h3>
+          <p class="service-card__desc">خدمات تجديد وترميم شاملة لتحويل منزلك القديم إلى تحفة معمارية حديثة.</p>
+          <a href="services.html#renovation" class="service-card__link">
+            المزيد
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المشاريع -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">FEATURED PORTFOLIO / أعمالنا</span>
+        <h2 class="section-title">مشاريعنا <span>المتميزة</span></h2>
+      </div>
+      
+      <div class="portfolio__filters fade-up">
+        <button class="portfolio__filter active" data-filter="all">الكل</button>
+        <button class="portfolio__filter" data-filter="residential">سكني</button>
+        <button class="portfolio__filter" data-filter="commercial">تجاري</button>
+        <button class="portfolio__filter" data-filter="renovation">تجديد</button>
+      </div>
+      
+      <div class="portfolio__grid portfolio__grid--featured">
+        <div class="project-card fade-up" data-category="residential">
+          <img class="project-card__image" src="assets/images/project-interior.png" alt="قصر المنيا" loading="lazy" width="600" height="400">
+          <div class="project-card__overlay">
+            <span class="project-card__category">سكني</span>
+            <h3 class="project-card__title">قصر المنيا</h3>
+            <div class="project-card__info">
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                المنيا، مصر
+              </span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                450 م²
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-1" data-category="commercial">
+          <img class="project-card__image" src="assets/images/project-building.png" alt="أبراج المنطقة الشمالية" loading="lazy" width="600" height="400">
+          <div class="project-card__overlay">
+            <span class="project-card__category">تجاري</span>
+            <h3 class="project-card__title">أبراج المنطقة الشمالية</h3>
+            <div class="project-card__info">
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                المنيا الجديدة
+              </span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                2000 م²
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-2" data-category="residential">
+          <img class="project-card__image" src="assets/images/hero-bg.png" alt="فيلا العصرية" loading="lazy" width="600" height="400">
+          <div class="project-card__overlay">
+            <span class="project-card__category">سكني</span>
+            <h3 class="project-card__title">فيلا العصرية</h3>
+            <div class="project-card__info">
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                المنيا
+              </span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                350 م²
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-3" data-category="renovation">
+          <img class="project-card__image" src="assets/images/project-renovation.png" alt="تجديد منزل العائلة" loading="lazy" width="600" height="400">
+          <div class="project-card__overlay">
+            <span class="project-card__category">تجديد</span>
+            <h3 class="project-card__title">تجديد منزل العائلة</h3>
+            <div class="project-card__info">
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                المنيا
+              </span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                200 م²
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: var(--space-2xl);" class="fade-up">
+        <a href="projects.html" class="btn btn--outline-dark btn--lg">عرض جميع المشاريع</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم عن الشركة -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image-wrapper fade-right">
+          <img class="about__image" src="assets/images/about-team.png" alt="فريق عمل بناء" loading="lazy" width="600" height="400">
+          <div class="about__image-accent"></div>
+        </div>
+        
+        <div class="fade-left">
+          <span class="about__subtitle">ABOUT US / من نحن</span>
+          <h2 class="about__title">جذورنا في المنيا، <span>وطموحنا بناء الوطن</span></h2>
+          <p class="about__desc">
+            تأسست شركة بناء في المنيا، مصر، برؤية طموحة لتقديم خدمات بناء وتشطيب بأعلى معايير الجودة والاحترافية. بدأنا رحلتنا بشغف حقيقي للعمارة والتصميم، وسرعان ما أصبحنا من أبرز الشركات في مجال المقاولات والديكور في صعيد مصر.
+          </p>
+          
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-number" data-count="150">0+</span>
+              <span class="about__stat-label">مشروع مكتمل</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number" data-count="10">0+</span>
+              <span class="about__stat-label">سنوات خبرة</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number" data-count="200">0+</span>
+              <span class="about__stat-label">عميل سعيد</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number" data-count="50">0+</span>
+              <span class="about__stat-label">فريق عمل</span>
+            </div>
+          </div>
+          
+          <a href="about.html" class="btn btn--primary">اعرف المزيد عنا</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم CTA -->
+  <section class="cta" id="cta">
+    <div class="container">
+      <div class="cta__content fade-up">
+        <h2 class="cta__title">هل أنت مستعد لبدء مشروعك؟</h2>
+        <p class="cta__desc">تواصل معنا اليوم للحصول على استشارة مجانية. فريقنا جاهز لتحويل رؤيتك إلى واقع.</p>
+        <div class="cta__buttons">
+          <a href="https://wa.me/201155855811?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%83%D9%85" target="_blank" class="btn btn--primary btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            تواصل عبر واتساب
+          </a>
+          <a href="contact.html" class="btn btn--outline btn--lg">أرسل رسالة</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- التذييل -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- العلامة التجارية -->
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="assets/images/logo.jpg" alt="بناء" loading="lazy" width="45" height="45">
+            <span class="footer__logo-text">بن<span>اء</span></span>
+          </div>
+          <p class="footer__desc">
+            شركة بناء للمقاولات والديكور - متخصصة في أعمال البناء والتشطيب والتصميم الداخلي في جميع أنحاء مصر. نلتزم بأعلى معايير الجودة والتميز.
+          </p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/profile.php?id=61581756783537" target="_blank" class="footer__social-link" aria-label="فيسبوك">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/benaa.elminya" target="_blank" class="footer__social-link" aria-label="انستاجرام">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+            </a>
+            <a href="https://wa.me/201155855811" target="_blank" class="footer__social-link" aria-label="واتساب">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- روابط سريعة -->
+        <div>
+          <h4 class="footer__heading">روابط سريعة</h4>
+          <div class="footer__links">
+            <a href="index.html" class="footer__link">الرئيسية</a>
+            <a href="about.html" class="footer__link">من نحن</a>
+            <a href="services.html" class="footer__link">الخدمات</a>
+            <a href="projects.html" class="footer__link">مشاريعنا</a>
+            <a href="contact.html" class="footer__link">اتصل بنا</a>
+          </div>
+        </div>
+
+        <!-- الخدمات -->
+        <div>
+          <h4 class="footer__heading">خدماتنا</h4>
+          <div class="footer__links">
+            <a href="services.html#general-contracting" class="footer__link">المقاولات العامة</a>
+            <a href="services.html#finishing" class="footer__link">أعمال التشطيبات</a>
+            <a href="services.html#interior-design" class="footer__link">التصميم الداخلي</a>
+            <a href="services.html#renovation" class="footer__link">تجديد المنازل</a>
+          </div>
+        </div>
+
+        <!-- معلومات التواصل -->
+        <div>
+          <h4 class="footer__heading">تواصل معنا</h4>
+          <div class="footer__contact-item">
+            <div class="footer__contact-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span>دماريس ابراج الاعلامين برج رقم 4 الدور اول علوى، المنيا، مصر</span>
+          </div>
+          <div class="footer__contact-item">
+            <div class="footer__contact-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <a href="tel:+201155855811" style="color: var(--color-accent);">011 55855811</a>
+          </div>
+          <div class="footer__contact-item">
+            <div class="footer__contact-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </div>
+            <a href="mailto:benaa.c.d2025@gmail.com" style="color: var(--color-accent);">benaa.c.d2025@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2025 بناء للمقاولات والديكور. جميع الحقوق محفوظة.</span>
+        <span>تصميم وتطوير بواسطة فريق بناء</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- أزرار التواصل العائمة -->
+  <div class="floating-contacts">
+    <a href="https://wa.me/201155855811?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%83%D9%85" target="_blank" class="floating-btn floating-btn--whatsapp" title="تواصل عبر واتساب" aria-label="واتساب">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+    </a>
+    <a href="https://m.me/61581756783537" target="_blank" class="floating-btn floating-btn--facebook" title="تواصل عبر ماسنجر" aria-label="ماسنجر">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.2 5.42 3.15 7.18V22l3.04-1.67c.85.24 1.76.37 2.81.37 5.64 0 10-3.93 10-9.3C21 6.13 17.64 2 12 2zm1.05 12.57l-2.55-2.72L5.5 14.6l5.45-5.78 2.61 2.72 4.94-2.72-5.45 5.75z"/></svg>
+    </a>
+    <a href="tel:+201155855811" class="floating-btn floating-btn--phone" title="اتصل بنا" aria-label="اتصال هاتفي">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+    </a>
+    <button class="floating-btn floating-btn--top" id="scrollTopBtn" title="العودة للأعلى" aria-label="العودة للأعلى">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

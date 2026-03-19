@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": "minya-palace",
+      "name": "قصر المنيا",
+      "name_en": "Minya Palace",
+      "category": "residential",
+      "category_name": "سكني",
+      "status": "completed",
+      "status_name": "مكتمل",
+      "image": "assets/images/project-interior.png",
+      "location": "المنيا، مصر",
+      "area": "450 متر مربع",
+      "description": "فيلا فاخرة بتصميم كلاسيكي عصري، تم تنفيذ أعمال البناء والتشطيب والتصميم الداخلي بالكامل.",
+      "year": "2024"
+    },
+    {
+      "id": "north-towers",
+      "name": "أبراج المنطقة الشمالية",
+      "name_en": "North Zone Towers",
+      "category": "commercial",
+      "category_name": "تجاري",
+      "status": "completed",
+      "status_name": "مكتمل",
+      "image": "assets/images/project-building.png",
+      "location": "المنيا الجديدة، مصر",
+      "area": "2000 متر مربع",
+      "description": "مجمع سكني تجاري متكامل يضم شقق سكنية فاخرة ومحلات تجارية.",
+      "year": "2024"
+    },
+    {
+      "id": "modern-villa",
+      "name": "فيلا العصرية",
+      "name_en": "Modern Villa",
+      "category": "residential",
+      "category_name": "سكني",
+      "status": "completed",
+      "status_name": "مكتمل",
+      "image": "assets/images/hero-bg.png",
+      "location": "المنيا، مصر",
+      "area": "350 متر مربع",
+      "description": "فيلا عصرية بتصميم مبتكر يجمع بين الطراز المعماري العربي والتصميم الحديث.",
+      "year": "2023"
+    },
+    {
+      "id": "home-renovation",
+      "name": "تجديد منزل العائلة",
+      "name_en": "Family Home Renovation",
+      "category": "renovation",
+      "category_name": "تجديد",
+      "status": "completed",
+      "status_name": "مكتمل",
+      "image": "assets/images/project-renovation.png",
+      "location": "المنيا، مصر",
+      "area": "200 متر مربع",
+      "description": "مشروع تجديد شامل لمنزل عائلي، شمل تحديث المطبخ والحمامات وإعادة التصميم الداخلي بالكامل.",
+      "year": "2024"
+    }
+  ],
+  "store": {
+    "enabled": true,
+    "categories": [
+      {
+        "id": "lands",
+        "name": "أراضي للبيع",
+        "icon": "map"
+      },
+      {
+        "id": "properties",
+        "name": "عقارات للبيع",
+        "icon": "home"
+      },
+      {
+        "id": "apartments",
+        "name": "شقق للبيع",
+        "icon": "building"
+      }
+    ],
+    "items": [
+      {
+        "id": "land-001",
+        "name": "أرض 500 متر - المنيا الجديدة",
+        "category": "lands",
+        "price": "اتصل للسعر",
+        "area": "500 متر مربع",
+        "location": "المنيا الجديدة",
+        "image": "assets/images/hero-bg.png",
+        "features": ["موقع متميز", "قريبة من الخدمات", "مرخصة"],
+        "status": "available"
+      },
+      {
+        "id": "apt-001",
+        "name": "شقة 180 متر - أبراج المنطقة الشمالية",
+        "category": "apartments",
+        "price": "اتصل للسعر",
+        "area": "180 متر مربع",
+        "location": "المنيا الجديدة",
+        "image": "assets/images/project-building.png",
+        "features": ["تشطيب سوبر لوكس", "3 غرف نوم", "بلكونة واسعة"],
+        "status": "available"
+      }
+    ]
+  }
+}
