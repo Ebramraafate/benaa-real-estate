@@ -1,0 +1,58 @@
+backend:
+  name: github
+  repo: Ebramraafate/benaa-real-estate
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "assets/images"
+
+collections:
+  - name: "settings"
+    label: "إعدادات الشركة"
+    files:
+      - name: "info"
+        label: "المعلومات الأساسية"
+        file: "data/company.json"
+        fields:
+          - {label: "اسم الشركة", name: "name", widget: "string"}
+          - {label: "اللوغو", name: "logo", widget: "image"}
+          - {label: "الهاتف للاتصال", name: "phone", widget: "string"}
+          - {label: "الهاتف للعرض", name: "phone_display", widget: "string"}
+          - {label: "واتساب", name: "whatsapp", widget: "string"}
+          - {label: "فيسبوك", name: "facebook", widget: "string"}
+          - {label: "ماسينجر", name: "messenger", widget: "string"}
+
+  - name: "services"
+    label: "الخدمات"
+    files:
+      - name: "list"
+        label: "قائمة الخدمات"
+        file: "data/services.json"
+        fields:
+          - name: "services"
+            label: "الخدمات"
+            widget: "list"
+            fields:
+              - {label: "المعرف", name: "id", widget: "hidden"}
+              - {label: "العنوان", name: "title", widget: "string"}
+              - {label: "الوصف", name: "description", widget: "text"}
+              - {label: "الأيقونة", name: "icon", widget: "string"}
+
+  - name: "projects"
+    label: "المشاريع والمتجر"
+    files:
+      - name: "list"
+        label: "قائمة المشاريع"
+        file: "data/projects.json"
+        fields:
+          - name: "projects"
+            label: "المشاريع"
+            widget: "list"
+            fields:
+              - {label: "المعرف", name: "id", widget: "hidden"}
+              - {label: "اسم المشروع", name: "title", widget: "string"}
+              - {label: "الفئة", name: "category", widget: "select", options: ["عقارات", "أراضي", "تشطيب", "ديكور"]}
+              - {label: "الصورة", name: "image", widget: "image"}
+              - {label: "الموقع", name: "location", widget: "string"}
+              - {label: "السعر", name: "price", widget: "string"}
+              - {label: "الوصف", name: "description", widget: "text"}
